@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.active {
+  background: #f4f4f4;
+}
+.contianer1 {
+  width: 95%;
+  margin: auto;
+}
