@@ -1,6 +1,6 @@
 import React from "react";
 import menubar from "../../assets/Hamburger-Menü.svg";
-import logo from "../../assets/logo.svg";
+import youtubelogo from "../../assets/youtubelogo.svg";
 import group from "../../assets/Group.svg";
 import trending from "../../assets/trending.svg";
 import subscription from "../../assets/subscription.svg";
@@ -21,7 +21,7 @@ const Aside = () => {
       <NavLink to={"/"}>
         <div className="flex items-center gap-6 p-5">
           <img src={menubar} alt="" />
-          <img src={logo} alt="" />
+          <img src={youtubelogo} alt="" />
         </div>
       </NavLink>
 
