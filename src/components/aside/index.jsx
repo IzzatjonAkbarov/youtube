@@ -17,16 +17,18 @@ import { NavLink } from "react-router-dom";
 library;
 const Aside = () => {
   return (
-    <div className="w-[20%]  h-screen">
-      <div className="flex items-center gap-6 p-5">
-        <img src={menubar} alt="" />
-        <img src={logo} alt="" />
-      </div>
+    <div className="w-[15%]  h-screen">
+      <NavLink to={"/"}>
+        <div className="flex items-center gap-6 p-5">
+          <img src={menubar} alt="" />
+          <img src={logo} alt="" />
+        </div>
+      </NavLink>
 
       <div className="">
         <div>
           <NavLink
-            to={"/home"}
+            to={"/"}
             className="w-full py-3 px-5 flex items-center gap-4">
             <img src={group} alt="" />
             <p className="text-[14px] font-medium">Home</p>

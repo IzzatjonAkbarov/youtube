@@ -6,3 +6,16 @@
   width: 95%;
   margin: auto;
 }
+img,
+button,
+i,
+input {
+  cursor: pointer;
+}
+.profile {
+  right: -100%;
+  transition: all 0.5s;
+}
+#check:checked ~ .profile {
+  right: 0%;
+}

@@ -8,7 +8,7 @@ const MainLayout = () => {
   return (
     <div className="flex">
       <Aside />
-      <div className="w-[80%]">
+      <div className="w-[85%]">
         <Header />
 
         <Outlet />
